@@ -1,0 +1,15 @@
+.footer {
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+.rodape {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.rodape img{
+    margin-bottom: 12px;
+}

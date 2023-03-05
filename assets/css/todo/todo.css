@@ -1,0 +1,27 @@
+.todo {
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.profile{
+    width: 150px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 16px 0 16px 0;
+}
+
+@media screen and (min-width: 767px) {
+    .profile{
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .profile{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }
+}

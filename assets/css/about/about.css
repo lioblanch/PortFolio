@@ -1,0 +1,37 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background: #EAF2FD;
+
+}
+
+.about-container h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.about-container p{
+    padding: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media screen and (min-width: 1023px) {
+    .about{
+        text-align: left;
+        align-items: none;
+    }
+    
+    .about-container{
+        margin-left: 30px;
+        width: 800px;
+    }
+}

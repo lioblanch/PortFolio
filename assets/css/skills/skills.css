@@ -1,0 +1,46 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    margin: 22px 0 22px 0;
+    flex-wrap: wrap;
+}
+
+.skills-tittle{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #464646;
+    
+}
+
+.skills-line{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 22px 0 ;
+    padding: 16px;
+    justify-content: center;
+
+}
+
+.skills-box{
+    display: flex;
+    flex-direction: column;
+    width: 156px;
+    height: 118px;
+    background: #FFFFFF;
+    
+}
+
+.skills-box li{
+    margin-top: 12px;
+}
+
+@media screen and (min-width: 767px) {
+    .skills-box{
+        margin: 10px
+
+    }
+}

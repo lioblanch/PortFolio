@@ -1,0 +1,91 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.experience-box{
+    margin: 22px 0 22px 0;
+}
+
+.info-container h2{
+    margin: 16px 0 16px 0;
+}
+
+.info-container h3{
+    margin: 0 0 22px 0;
+}
+
+.experience-description{
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience-repo button{
+    
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 96px;
+}
+
+.experience-demo button{
+    
+    border: none;
+    background: #2A7AE4;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 96px;
+}
+
+@media screen and (min-width: 767px) {
+    .experiencia-box--imagen{
+        width: 600px;
+        height: 320px;
+    }
+    
+    
+    .info-container{
+        text-align: left;
+    }
+    .experience-description{
+        justify-content: flex-start;
+        
+    }
+    .experience-repo{
+        margin-right: 12px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+
+    .experience{
+        display: flex;
+    }
+
+    .experience-box {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .experiencia-box--imagen{
+        width: 500px;
+        height: 320px;
+    }
+}
