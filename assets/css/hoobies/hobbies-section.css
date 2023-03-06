@@ -19,6 +19,7 @@
 .hobbies-line{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 22px 0 ;
     padding: 16px;
     justify-content: center;
@@ -32,9 +33,26 @@
     width: 156px;
     height: 118px;
     background: #FFFFFF;
+    margin: 2px;
     
 }
 
 .hobbies-box li{
     margin-top: 12px;
+}
+
+@media screen and (min-width: 767px) {
+    .hobbies-box{
+        margin: 10px
+
+    }
+
+}
+
+@media screen and (min-width: 1023px) {
+    .hobbies-box{
+        margin: 10px
+
+    }
+
 }

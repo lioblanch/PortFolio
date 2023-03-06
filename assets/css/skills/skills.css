@@ -19,6 +19,7 @@
 .skills-line{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 22px 0 ;
     padding: 16px;
     justify-content: center;
@@ -28,9 +29,11 @@
 .skills-box{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 156px;
     height: 118px;
     background: #FFFFFF;
+    margin: 2px;
     
 }
 
