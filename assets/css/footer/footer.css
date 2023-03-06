@@ -2,6 +2,7 @@
     height: 20vh;
     justify-content: center;
     align-items: center;
+    margin-bottom: 12px;
 }
 .rodape {
     font-weight: 500;
