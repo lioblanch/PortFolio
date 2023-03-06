@@ -3,6 +3,8 @@
     justify-content: center;
     margin: 22px 0 22px 0;
     flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
 }
 
 .section-tittle{
@@ -21,8 +23,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 22px 0 ;
-    padding: 16px;
-    justify-content: center;
+    padding: 8px;
 
 }
 
@@ -30,7 +31,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 156px;
+    width: 150px;
     height: 118px;
     background: #FFFFFF;
     margin: 2px;
@@ -45,6 +46,9 @@
     .hobbies-box{
         margin: 10px
 
+    }
+    .hobbies-line{
+        justify-content: space-around;
     }
 
 }

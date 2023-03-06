@@ -73,3 +73,47 @@ textarea::placeholder {
     margin: 32px 0;
 }
 
+@media screen and (min-width: 1023px) {
+    .contact-img{
+        display: block;
+        width: 250px;
+        height: 300px;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        padding: 12px;
+        margin: 12px 22px 12px 22px;
+    }
+
+    .esquerda{
+        display: flex;
+        margin-right: 100px;
+        align-items: center;
+    }
+
+    .formcontato{
+        justify-content: center;
+        margin: 22px;
+        
+        
+    }
+
+    .contact-text{
+        box-sizing: border-box;
+    }
+
+    .form{
+        display: flex;
+        padding: 12px;
+    }
+
+    .form input{
+        width: 600px;
+    }
+
+    .form textarea{
+        width: 600px;
+    }
+}

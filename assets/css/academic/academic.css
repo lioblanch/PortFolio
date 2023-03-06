@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    background: #EAF2FD;
 }
 
 .section-title{
@@ -17,6 +18,7 @@
     display: flex;
     margin: 22px 8px 22px 8px;
     text-align: center;
+    background: #FFFFFF;
 
 } 
 
@@ -39,7 +41,8 @@
     }
 
     .courses-box{
-        margin-right: 10px;
+        margin: 40px;
+        justify-content: space-between;
     }
 
     .course-img img{
